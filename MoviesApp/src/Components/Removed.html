@@ -1,0 +1,119 @@
+<li className="nav-item">
+    <Link className="nav-link" to="/pricing">Pricing</Link>
+</li>
+<li className="nav-item">
+    <Link className="nav-link" to="/business">Business</Link>
+</li>
+<li className="nav-item">
+    <Link className="nav-link" to="/entertainment">Entertainment</Link>
+</li>
+<li className="nav-item">
+    <Link className="nav-link" to="/">General</Link>
+</li>
+<li className="nav-item">
+    <Link className="nav-link" to="/health">Health</Link>
+</li>
+<li className="nav-item">
+    <Link className="nav-link" to="/science">Science</Link>
+</li>
+<li className="nav-item">
+    <Link className="nav-link" to="/sports">Sports</Link>
+</li>
+<li className="nav-item">
+    <Link className="nav-link" to="/technology">Technology</Link>
+</li>
+//Navbar
+
+//Sample Responsed
+{
+"page": 1,
+"results": [
+{
+"adult": false,
+"backdrop_path": "/5QEtCBM6aXHftr7sgFxxUUl9Ej8.jpg",
+"genre_ids": [
+80,
+18,
+53,
+28
+],
+"id": 75780,
+"original_language": "en",
+"original_title": "Jack Reacher",
+"overview": "When a gunman takes five lives with six shots, all evidence points to the suspect in custody. On
+interrogation, the suspect offers up a single note: \"Get Jack Reacher!\" So begins an extraordinary chase for the
+truth, pitting Jack Reacher against an unexpected enemy, with a skill for violence and a secret to keep.",
+"popularity": 53.457,
+"poster_path": "/uQBbjrLVsUibWxNDGA4Czzo8lwz.jpg",
+"release_date": "2012-12-20",
+"title": "Jack Reacher",
+"video": false,
+"vote_average": 6.596,
+"vote_count": 6362
+},
+{
+"adult": false,
+"backdrop_path": "/ww1eIoywghjoMzRLRIcbJLuKnJH.jpg",
+"genre_ids": [
+28,
+53
+],
+"id": 343611,
+"original_language": "en",
+"original_title": "Jack Reacher: Never Go Back",
+"overview": "When Major Susan Turner is arrested for treason, ex-investigator Jack Reacher undertakes the challenging
+task to prove her innocence and ends up exposing a shocking conspiracy.",
+"popularity": 37.423,
+"poster_path": "/cOg3UT2NYWHZxp41vpxAnVCOC4M.jpg",
+"release_date": "2016-10-19",
+"title": "Jack Reacher: Never Go Back",
+"video": false,
+"vote_average": 5.938,
+"vote_count": 4406
+},
+{
+"adult": false,
+"backdrop_path": null,
+"genre_ids": [
+99
+],
+"id": 1045592,
+"original_language": "en",
+"original_title": "Jack Reacher: When the Man Comes Around",
+"overview": "Cast and crew speak on adapting One Shot as the first Jack Reacher film, casting Tom Cruise, earning Lee
+Child's blessing, additional character qualities and the performances that shape them, Lee Child's cameo in the film,
+and shooting the film's climax.",
+"popularity": 3.82,
+"poster_path": null,
+"release_date": "2013-05-07",
+"title": "Jack Reacher: When the Man Comes Around",
+"video": false,
+"vote_average": 10.0,
+"vote_count": 1
+}
+],
+"total_pages": 1,
+"total_results": 3
+}
+
+
+
+//Infinite Scroll
+<InfiniteScroll dataLength={movies.length} next={fetchMoreData} hasMore={movies.length !==noOfMovies}
+    loader={<Spinner />}></InfiniteScroll>
+
+
+<InfiniteScroll dataLength={results.total_pages} next={fetchMoreData} hasMore={page < results.total_pages}
+    loader={<Spinner />}></InfiniteScroll>
+
+
+
+const [darkMode, setDarkMode] = useState(false);
+const toggleDarkMode = () => {
+setDarkMode(!darkMode)
+}
+<div class="form-check form-switch pb-0">
+    <label class="form-check-label text-white me-3" for="flexSwitchCheckDefault">Dark-Mode</label>
+    <input class="form-check-input mx-1" type="checkbox" role="switch" id="flexSwitchCheckDefault"
+        onClick={toggleDarkMode} />
+</div>

@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+        {
+            "source": {
+                "id": "talksport",
+                "name": "TalkSport"
+            },
+            "author": "161385360554578",
+            "title": "Chelsea announce second signing, Liverpool agree Szoboszlai deal, Man United contact Onana",
+            "description": "talkSPORT.com brings you all the latest football news, views and transfer gossip. Check out our headline stories and follow our live blog below for regular updates. Headlines: Liverpool agree deal …",
+            "url": "https://talksport.com/football/1477805/football-news-live-transfers-arsenal-man-utd-chelsea-liverpool/",
+            "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2023/07/OQ-TALKSPORT-BLOG-1ST-JULY.jpg?strip=all&quality=100&w=1500&h=1000&crop=1",
+            "publishedAt": "2023-07-01T08:45:35Z",
+            "content": "England’s Lionesses will not be allowed to wear the OneLove armband at the Women’s World Cup this summer.\r\nBut players will be able to wear bands supporting other causes, after consultation with FIFA… [+2127 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-sports",
+                "name": "Fox Sports"
+            },
+            "author": null,
+            "title": "SEC's Greg Sankey joins Joe Klatt to discuss changes to CFB calendar",
+            "description": "SEC Commissioner Greg Sankey joined Joel Klatt to discuss recent changes in college football and offer solutions to issues with the CFB calendar.",
+            "url": "http://www.foxsports.com/stories/college-football/secs-greg-sankey-joins-joe-klatt-to-discuss-changes-to-cfb-calendar",
+            "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2023/06/1408/814/6.30.23_Joel-Klatt-speaks-with-SEC-commissioner-Greg-Sankey_Horizontal-3-1.jpg?ve=1&tl=1",
+            "publishedAt": "2023-06-30T20:34:01Z",
+            "content": "Editors Note: This summer, FOX Sports college football analyst Joel Klatt\r\n is interviewing the biggest names in college football as part of his new podcast series, \"The Joel Klatt Show: Big Noon Con… [+4522 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-sports",
+                "name": "Fox Sports"
+            },
+            "author": "Martin Rogers",
+            "title": "USFL Championship will also be a celebration of longevity: 'We're just getting going'",
+            "description": "Football history is littered with fresh leagues that didn't go anywhere. The USFL feels different, because at its core, it is.",
+            "url": "http://www.foxsports.com/stories/usfl/usfl-championship-will-also-be-a-celebration-of-longevity-were-just-getting-going",
+            "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2023/06/1408/814/6.30.23_Inside-Newsletter_USFL-Championship-Preview_16x9.jpg?ve=1&tl=1",
+            "publishedAt": "2023-06-30T17:10:55Z",
+            "content": "It is hard to be a back-to-back champion in pro football, which places the Birmingham Stallions on the cusp of a neat little bit of history this weekend.\r\nThere are reasons for that; football is a co… [+5610 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "Five famous people (and one cat) you didn't know have ESPNcricinfo profiles | ESPNcricinfo.com",
+            "description": "Why do a footballer, a Nobel laureate and a prime minister (no, not Imran Khan) find themselves in the ESPNcricinfo player database? | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29102695/five-famous-people-one-cat-know-espncricinfo-profiles",
+            "urlToImage": "https://a.espncdn.com/i/cricket/cricinfo/1221668_1296x1296.gif",
+            "publishedAt": "2020-04-27T07:20:43Z",
+            "content": "Why do a cat, a footballer, a Nobel laureate and a prime minister find themselves in the ESPNcricinfo database? Here are six player profiles you wouldn't have expected we had.\r\nPeter the catThe only … [+5504 chars]"
+        }
+    ]
+}
