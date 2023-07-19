@@ -1,0 +1,128 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    ;
+}
+
+body {
+    background-image: url(philip-myrtorp-AkOr2UkiqGE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+
+body .navbar {
+    background: #222222;
+}
+
+.card-img-top {
+    width: 18rem;
+    height: 23rem;
+    border: solid 2px #4a90e2;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.card-img-top:hover {
+    box-shadow: 0 0 15px 5px rgba(74, 144, 226, 0.8);
+}
+
+.nav-link,
+.navbar-brand {
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: #4a90e2;
+
+}
+
+.btn-outline-success:hover {
+    transition: box-shadow 0.05s ease-in-out;
+    box-shadow: 0 0 2px 2px rgba(25, 135, 84, 0.8);
+}
+
+#nameSearch {
+    margin-top: 3.0rem;
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+#nameSearch:hover {
+    cursor: pointer;
+    color: #4a90e2;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.container-2 {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+
+.home-heading:hover {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    color: #4a90e2;
+}
+
+#home-input {
+    width: 50%;
+    height: 3rem;
+    transition: 0.1s ease-in-out;
+}
+
+#home-input:hover {
+    box-shadow: 0 0 5px 5px rgba(74, 144, 226, 0.8);
+}
+
+#home-button {
+    width: 10%;
+}
+
+#rating-badge {
+    top: 1.8%;
+    right: 5%;
+    position: absolute;
+    border-radius: 60%;
+    padding: 1.5%;
+}
+
+@media (max-width:767px) {
+    #rating-badge {
+        top: 1.8%;
+        right: 24%;
+        position: absolute;
+        border-radius: 60%;
+        padding: 1.5%;
+    }
+}
+
+@media(max-width:385px) {
+    #rating-badge {
+        top: 1.8%;
+        right: 10%;
+        position: absolute;
+        border-radius: 60%;
+        padding: 1.5%;
+    }
+}
+
+@media(max-width:440px) {
+    #rating-badge {
+        top: 1.8%;
+        right: 12%;
+        position: absolute;
+        border-radius: 60%;
+        padding: 1.5%;
+    }
+}
+
+.navbar-toggler {
+    background-color: #3554a4;
+
+}
